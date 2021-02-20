@@ -1,0 +1,39 @@
+table {
+	margin: auto;
+	width: 70%;
+	background-color: #80808038;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 15px;
+	font-size: 125%;
+}
+
+td {
+	padding: 5px;
+}
+
+.item {
+	text-align: left;
+	border-right-style: hidden;
+}
+
+.price {
+	text-align: right;
+	border-left-style: hidden;
+}
+
+#price_header {
+	width: 70px;
+}
+
+p {
+	text-align: center;
+}

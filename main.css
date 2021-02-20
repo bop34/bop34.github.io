@@ -1,0 +1,50 @@
+body {
+	margin: 0 auto;
+}
+
+#nav {
+	background-color: black;
+	width: 10%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	position: fixed;
+	overflow: scroll;
+	min-width: 105px;
+}
+#nav a {
+	color: white;
+	text-decoration: none;
+	line-height: 500%;
+	font-size: 150%;
+	padding: 10%;
+}
+
+#content {
+	margin-left: 10%;
+}
+
+#content h1 {
+	font-family: monospace;
+	font-size: 500%;
+	text-align: center;
+	padding: 4%;
+	margin: 0;
+}
+
+#content p {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#current {
+	color: grey;
+}
+
+/* Stop the left margin from shrinking once the screen is too small*/
+@media screen and (max-width:1050px) {
+	#content {
+		margin-left: 105px; /* The left margin is 105 px when the viewport is 1050px or smaller */
+	}
+}
